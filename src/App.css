@@ -1,0 +1,63 @@
+
+/* Tenzies */
+body {
+  padding: 25px;
+  background-color: #0b2434;
+}
+
+.container {
+  background-color: #f5f5f5;
+  min-width: 90vh;
+  height: 100vh;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 420px;
+}
+.container-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+p {
+  font-size: large;
+  width: 60%;
+  text-align: center;
+}
+
+.die {
+  color: black;
+  border-radius: 5px;
+  width: 8vh;
+  height: 8vh;
+  box-shadow: 1px 1px 1px rgb(179, 172, 172);
+  margin: 15px;
+  font-size: xx-large;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn {
+  background-color: #5035ff;
+  border: none;
+  width: 20vh;
+  height: 7vh;
+  font-size: large;
+  color: white;
+  border-radius: 5px;
+  margin-top: 50px;
+  font-family: "karla", sans-serif;
+  cursor: pointer;
+}
+
